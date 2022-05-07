@@ -11,7 +11,7 @@ mongoose.connect("mongodb+srv://ZeroX:Balaram26@cluster0.b2lzi.mongodb.net/Roast
 
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://google-docs-production.up.railway.app",
     methods: ["GET", "POST"],
   },
 })
